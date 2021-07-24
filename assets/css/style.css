@@ -93,6 +93,7 @@ footer a{
 #contenido form * {
     display: inline-block;
 }
+
 input[type = "text"], select{
     margin-bottom: 15px;
     padding: 10px;
@@ -113,3 +114,4 @@ input[type ="submit"], button{
     float: none;
     clear: both;
 }
+
