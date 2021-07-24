@@ -39,7 +39,8 @@ footer a{
 }
 
 #principal{
-    margin-left: 25%;
+    display: block;
+    margin: auto;
 }
 #descripcion{
     font-style: italic;
