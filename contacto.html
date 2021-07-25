@@ -24,22 +24,25 @@
             <hr>
             <div id="contenido">
                 <h2>Contacto</h2>
-                <div id="formulario">
-                    <label for="name">Nombre</label>
-                    <input type="text" id="name"
-                    placeholder = "Julio"
-                    >
-                    <label for="lname">Apellido</label>
-                    <input type="text" id="lname"
-                    placeholder = "Nuñez"
-                    >
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email"
-                    placeholder="ejemplo@ejemplo.com"
-                    >
-                    <label for="message">Mensaje</label>
-                    <input type="text">
-                    <input type="submit" value="Enviar">
+                <div class="formulario">
+                    <div class="input-field">
+                        <label>Nombre: </label>
+                        <input type="text" class="input" id="name"
+                        placeholder="Julio Nuñez"
+                        >
+                    </div>
+                    <div class="input-field">
+                        <label>Email: </label>
+                        <input type="text" class="input" id="email"
+                        placeholder="ejemplo@ejemplo.com">
+                    </div>
+                    <div class="input-field">
+                        <label>Mensaje </label>
+                        <input type="text" class="input" id="mesage">
+                    </div>
+                    <div class="input-field">
+                        <input type="submit" value="Enviar" onclick="ClearFields()">
+                    </div>
                 </div>
             </div>
 
@@ -50,5 +53,12 @@
             </footer>
         </div>
     </body>
+    <script>
+        function ClearFields() {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("mesage").value = "";
+        }
+    </script>
 
 </html>

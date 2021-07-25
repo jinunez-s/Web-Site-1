@@ -109,6 +109,34 @@ input[type ="submit"], button{
     cursor: pointer;
 
 }
+
+.formulario{
+    width: 100%;
+    justify-content: center;
+    margin: 0px auto;
+    flex-direction: column;
+    max-width: 600px;
+    
+}
+.formulario .input-field{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.formulario .input-field label{
+    width: 200px;
+
+}
+/*
+
+#email{
+    margin-bottom: 15px;
+    width: 300px;
+    padding: 10px;
+}
+*/
+
 /*Selector por clase*/
 .clearFix{
     float: none;
