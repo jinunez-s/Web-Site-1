@@ -118,16 +118,7 @@ input[type ="submit"], button{
     max-width: 600px;
     
 }
-.formulario .input-field{
-    margin-bottom: 15px;
-    margin-top: 15px;
-    display: flex;
-    align-items: center;
-}
-.formulario .input-field label{
-    width: 200px;
 
-}
 /*
 
 #email{
@@ -143,3 +134,13 @@ input[type ="submit"], button{
     clear: both;
 }
 
+.formulario .input-field{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.formulario .input-field label{
+    width: 200px;
+
+}
